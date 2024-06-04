@@ -8,6 +8,9 @@ import java.util.List;
 import org.springframework.data.annotation.Id;
 import org.springframework.data.mongodb.core.mapping.Document;
 
+import com.augustojph.springmongodb.dto.AuthorDTO;
+import com.augustojph.springmongodb.dto.CommentDTO;
+
 @Document
 public class Post implements Serializable {
 	private static final long serialVersionUID = 1L;
